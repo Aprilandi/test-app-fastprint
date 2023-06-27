@@ -1,7 +1,7 @@
 
-# Test App For FastPrint
+# Test App For Fast Print Indonesia
 
-This project is for a program to get a data from API FastPrint. List of the Data from API
+This project is for a program to get a data from Fast Print API. List of the Data from API
 
 - Product ID
 - Product Name
@@ -10,7 +10,7 @@ This project is for a program to get a data from API FastPrint. List of the Data
 - Product Status
 
 > **Note :**
-> Data from API will be saved into local database, to access FastPrint's API you need to go to [FastPrint Test API](https://recruitment.fastprint.co.id/tes/api_tes_programmer) using a POST method and username and password field. (But in this project you just need to click "Ambil Data" button to access the API)
+> Data from API will be saved into local database, to access Fast Print's API you need to go to [Fast Print Test API](https://recruitment.fastprint.co.id/tes/api_tes_programmer) using a POST method and username & password field. (But in this project you just need to click "Ambil Data" button to access the API)
 >
 > 
 ## Clone Repo
