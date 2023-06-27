@@ -74,7 +74,7 @@
                     <div class="form-group">
                         <label for="inputNama">Nama Kategori</label><br>
                         <input type="text" class="form-control" id="inputNama" name="inputNama" placeholder="Nama kategori...
-                        ">
+                        " required>
                     </div>
                     <div class="form-group">
                         <label for="inputDeskripsi">Deskripsi</label><br>
@@ -109,7 +109,7 @@
                     <div class="form-group">
                         <label for="inputedNama">Nama Kategori</label><br>
                         <input type="text" class="form-control" id="inputedNama" name="inputedNama"
-                            placeholder="Nama kategori...">
+                            placeholder="Nama kategori..." required>
                     </div>
                     <div class="form-group">
                         <label for="inputedDeskripsi">Deskripsi</label><br>
