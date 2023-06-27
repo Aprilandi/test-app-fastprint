@@ -41,7 +41,14 @@ Create database on MySql and run Xampp or another Database engine
 
 ## Migration
 
-After you create the database then run this command
+After you create the database go to .env file and change the database name
+
+```bash
+  DB_DATABASE=laravel -> DB_DATABASE=test-app
+```
+
+After that run this command
+
 ```bash
   php artisan migrate --seed
 ```
@@ -50,7 +57,14 @@ After you create the database then run this command
 
 ## Run project
 
-to run this project, you need to run this command
+Before running the project type this command 
+
+```bash
+  php artisan key:generate
+```
+
+After that run this command to run the project
+
 ```bash
   php artisan serve
 ```
