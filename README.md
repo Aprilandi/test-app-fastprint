@@ -46,6 +46,8 @@ After you create the database go to .env file and change the database name
 ```bash
   DB_DATABASE=laravel -> DB_DATABASE=test-app
 ```
+> **Note :**
+> Don't forget to save the file after the changes.
 
 After that run this command
 
