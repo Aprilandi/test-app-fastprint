@@ -42,8 +42,7 @@
             <tr>
                 <td class="text-center">{{ $loop->iteration }}.</td>
                 <td>{{ $row->nama_produk }}</td>
-                {{-- <td>Rp {{ number_format($row->harga, 2, ',', '.') }}</td> --}}
-                <td>{{ $row->harga }}</td>
+                <td data-sort="{{ $row->harga }}">Rp {{ number_format($row->harga, 2, ',', '.') }}</td>
                 <td>{{ $row->kategori->nama_kategori }}</td>
                 <td class="text-center">
                     <div class="row">
@@ -54,7 +53,7 @@
                             data-desc="{{ $row->desc }}"><i class="fa fa-edit">
                             </i></button>
 
-                        <button class="btn btn__destroyCta btn-sm col-6 deleteProduk"
+                        <button class="btn btn__destroyCta btn-sm col-6 btnDelete"
                             href="{{ route('produk.destroy', $row->id_produk) }}" data-nama="{{ $row->nama_produk }}">
                             <i class="fa fa-trash"> </i>
                         </button>
@@ -212,7 +211,7 @@
             })
     });
 
-    $('.deleteProduk').on('click', function() {
+    $('.btnDelete').on('click', function() {
         var href = $(this).attr('href');
         var nama = $(this).data('nama');
         Swal.fire({
